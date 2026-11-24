@@ -8,7 +8,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/gcottom/audiometa-core"
+	"github.com/gcottom/audiometa-core/v2"
 )
 
 type Open func(io.ReadSeeker) (*core.Editor, error)
